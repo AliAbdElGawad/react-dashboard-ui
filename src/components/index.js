@@ -6,8 +6,11 @@ import CardItem from "./CardItem";
 import AreaChartComponents from "./AreaChartComponents";
 import TableComponent from "./TableComponent";
 import SalesItem from "./SalesItem";
+import WebAnalytics from "./WebAnalytics";
+import ScoreList from "./ScoreList";
 
 export {
+  ScoreList,
   Sidebar,
   Navbar,
   LeftColumn,
@@ -16,4 +19,5 @@ export {
   CardItem,
   TableComponent,
   SalesItem,
+  WebAnalytics,
 };

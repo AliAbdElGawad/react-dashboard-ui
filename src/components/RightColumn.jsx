@@ -1,8 +1,10 @@
-import { SalesItem } from "../components";
+import { SalesItem, ScoreList, WebAnalytics } from "../components";
 const RightColumn = () => {
   return (
-    <div>
+    <div className="w-full p-2">
       <SalesItem />
+      <WebAnalytics />
+      <ScoreList />
     </div>
   );
 };

@@ -63,7 +63,7 @@ const SalesItem = () => {
 
   return (
     <Card className="max-w-full mx-auto">
-      <Flex className="space-x-8 flex-col lg:flex-row">
+      <Flex className="flex-col space-x-8 lg:flex-row">
         <Title>Overview</Title>
         <TabGroup index={selectedIndex} onIndexChange={setSelectedIndex}>
           <TabList variant="solid">
@@ -83,7 +83,8 @@ const SalesItem = () => {
         <DonutChart
           data={stocks}
           valueFormatter={dataFormatter}
-          showAnimation={false}
+          showAnimation={true}
+          animationDuration={1500}
           category="value"
           index="name"
           className="mt-6"
@@ -110,7 +111,7 @@ const SalesItem = () => {
           </List>
         </>
       )}
-      <Flex className="mt-6 pt-4 border-t">
+      <Flex className="pt-4 mt-6 border-t">
         <Button
           size="xs"
           variant="light"

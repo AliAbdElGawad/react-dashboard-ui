@@ -74,6 +74,8 @@ const AreaChartComponents = () => {
         className="mt-4 h-72"
         data={chartdata}
         index="date"
+        showAnimation={true}
+        animationDuration={1500}
         yAxisWidth={65}
         categories={["SemiAnalysis", "The Pragmatic Engineer"]}
         colors={["indigo", "cyan"]}
