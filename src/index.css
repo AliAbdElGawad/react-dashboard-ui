@@ -10,3 +10,9 @@
 body {
   background-color: #1e293b;
 }
+
+@layer base {
+  .sidebar-icon {
+    @apply p-2 mb-4 text-gray-300 bg-gray-600 rounded-lg cursor-pointer hover:bg-opacity-75 hover:text-white;
+  }
+}
