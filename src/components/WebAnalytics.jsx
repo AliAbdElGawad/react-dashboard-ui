@@ -101,7 +101,7 @@ const data = [
 ];
 
   return (
-    <Card className="max-w-lg mx-auto my-4">
+    <Card className="w-full mx-auto my-4">
       <h3 className="font-medium text-tremor-title text-tremor-content-strong dark:text-dark-tremor-content-strong">Website Analytics</h3>
       <p className="flex items-center justify-between mt-4 text-tremor-default text-tremor-content dark:text-dark-tremor-content">
         <span>Source</span>
